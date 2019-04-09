@@ -10,6 +10,58 @@
 .col {
   flex-direction: column;
 }
+.col-2-3 {
+  width: 66%;
+}
+
+.col-1-3 {
+  width: 33%;
+}
+.cover-author {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  line-height: 16px;
+}
+.cover-small-size {
+  height: 50%;
+  margin: 4px;
+  border: 1px solid red;
+}
+
+.cover-section {
+  color: #fff;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.cover-tittle {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+  color: #fff;
+  font-weight: 700;
+  width: 80%;
+}
+
+.cover-full-height {
+  height: 100%;
+  margin: 4px;
+  border: 1px solid red;
+}
+
+.cover-grid {
+  height: 44vh;
+}
+.left-news {
+  background-color: red;
+  height: 100%;
+  width: 65%;
+}
 
 .nav {
   width: 100%;
@@ -95,6 +147,13 @@
   margin-left: 20px;
 }
 
+.news-text {
+  color: #fff;
+}
+#news-image {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/PUBG-796x398.jpg");
+  background-size: cover;
+}
 #icon-search {
   color: lightgray;
   margin: 0 24px;
