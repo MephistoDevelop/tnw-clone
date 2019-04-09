@@ -71,7 +71,7 @@
   margin-left: 20px;
 }
 
-.text-clock {
+.nav-clock {
   font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -79,6 +79,15 @@
   letter-spacing: 0;
 }
 
+.nav-sections-contdown {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+#icon-search {
+  color: lightgray;
+}
 #logo {
   height: 16px;
 }
