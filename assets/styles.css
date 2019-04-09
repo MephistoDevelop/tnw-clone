@@ -48,6 +48,7 @@
   height: 48px;
   line-height: 1;
   padding: 18px 10px 0;
+  font-size: 0.89rem;
 }
 
 .nav-sections-section:hover {
@@ -68,6 +69,14 @@
   display: inline;
   color: white;
   margin-left: 20px;
+}
+
+.text-clock {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f42;
+  letter-spacing: 0;
 }
 
 #logo {
