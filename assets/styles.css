@@ -13,8 +13,15 @@
 
 .nav {
   width: 100%;
-  height: 80px;
-  position: absolute;
+}
+
+.nav-clock {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f42;
+  letter-spacing: 0;
+  font-size: 1.35rem;
 }
 
 .nav-logo {
@@ -27,12 +34,23 @@
     color-stop(85%, #f42)
   );
   background: linear-gradient(to bottom right, #c09, #f42 85%);
-  height: 100%;
-  padding: 16px 20px;
   width: 106px;
   will-change: height;
   display: flex;
   justify-content: center;
+}
+
+.nav-message {
+  background-color: #fd3;
+  min-height: 4.5vh;
+  font-size: 13px;
+  padding-top: 6px;
+  padding-left: 126px;
+}
+
+.nav-sections {
+  height: 100%;
+  min-height: 6.5vh;
 }
 
 .nav-sections li {
@@ -45,14 +63,20 @@
   text-transform: uppercase;
   color: #aaa;
   display: block;
-  height: 48px;
   line-height: 1;
-  padding: 18px 10px 0;
+  padding: 9px 10px;
   font-size: 0.89rem;
 }
 
 .nav-sections-section:hover {
   color: #131313;
+}
+
+.nav-sections-contdown {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid lightgray;
+  padding: 8px 18px;
 }
 
 .nav-tnw {
@@ -71,23 +95,11 @@
   margin-left: 20px;
 }
 
-.nav-clock {
-  font-family: Shentox, sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #f42;
-  letter-spacing: 0;
-}
-
-.nav-sections-contdown {
-  display: flex;
-  align-items: center;
-  padding: 18px;
-}
-
 #icon-search {
   color: lightgray;
+  margin: 0 24px;
 }
+
 #logo {
   height: 16px;
 }
