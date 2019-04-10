@@ -22,10 +22,16 @@
   font-size: 12px;
   line-height: 16px;
 }
+
+.cover-author-small {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 10px;
+  line-height: 16px;
+}
 .cover-small-size {
-  height: 50%;
-  margin: 4px;
-  border: 1px solid red;
+  height: 49%;
+  margin: 5px 12px;
+  padding: 4px 8px;
 }
 
 .cover-section {
@@ -39,6 +45,19 @@
   margin-top: auto;
 }
 
+.cover-section-small {
+  width: 100%;
+  color: #fff;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: auto;
+  padding-top: 25%;
+}
+
 .cover-tittle {
   font-family: Avalon, sans-serif;
   font-size: 28px;
@@ -48,14 +67,24 @@
   width: 80%;
 }
 
+.cover-tittle-small {
+  font-family: Avalon, sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.015em;
+  color: #fff;
+  font-weight: 700;
+  width: 80%;
+}
+
 .cover-full-height {
   height: 100%;
   margin: 4px;
-  border: 1px solid red;
+  padding: 4px 8px;
+  /* border: 1px solid red; */
 }
 
 .cover-grid {
-  height: 44vh;
+  height: 55vh;
 }
 .left-news {
   background-color: red;
@@ -152,6 +181,16 @@
 }
 #news-image {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/PUBG-796x398.jpg");
+  background-size: cover;
+}
+
+#background-news {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/pewdiepie-796x448.jpg");
+  background-size: cover;
+}
+
+#news-image-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/header-image-cycles-796x417.png");
   background-size: cover;
 }
 #icon-search {
