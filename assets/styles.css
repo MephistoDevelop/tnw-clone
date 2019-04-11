@@ -1,28 +1,21 @@
-@media screen and (max-device-width: 600px) {
-  .story {
+@media screen and (max-width: 600px) {
+  .grid-item {
     width: 100% !important;
   }
-
-  .deal {
-    width: 100%;
-  }
 }
 
-@media screen and (max-device-width: 960px) {
-  .story {
+@media screen and (max-width: 960px) {
+  .grid-item {
     width: 30% !important;
   }
-
-  .deal {
-    width: 33%;
-  }
 }
 
-@media screen and (min-device-width: 961px) {
-  .story {
+@media screen and (min-width: 961px) {
+  .grid-item {
     width: 22% !important;
   }
 }
+
 .align-items-center {
   align-items: center;
 }
@@ -32,6 +25,7 @@
   height: 10vh;
   border: 1px solid blue;
 }
+
 .container {
   display: flex;
   width: 100%;
@@ -126,13 +120,60 @@
   width: 75%;
 }
 
-.deal {
-  border: 1px solid red;
+.deal-category {
+  color: #000;
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+.deal-name {
+  color: white;
+  background-color: #f42;
+  padding: 10.66666667px 16px;
+  padding-left: 84px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deal-raised {
+  font-size: 18px;
+  color: #000;
+  margin: 0 !important;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .flex-wrap {
   max-width: 100%;
   flex-wrap: wrap;
+}
+
+.header-link {
+  color: #f42;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.headline {
+  color: #f42;
+  text-decoration: none;
+  font-family: Avalon, sans-serif;
+  font-size: 26px;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+  line-height: 1.1;
+  padding: 20px 0px;
+}
+
+.headline:hover {
+  color: black;
 }
 
 .latest-news {
@@ -254,24 +295,17 @@
   color: red;
 }
 
+#deals {
+  padding: 0 24px;
+}
+
+#deals-header {
+  margin-bottom: 16px;
+}
+
 #icon-search {
   color: lightgray;
   margin: 0 24px;
-}
-
-#latest-news-headline {
-  color: #f42;
-  text-decoration: none;
-  font-family: Avalon, sans-serif;
-  font-size: 26px;
-  letter-spacing: -0.015em;
-  font-weight: 700;
-  line-height: 1.1;
-  padding: 20px 0px;
-}
-
-#latest-news-headline:hover {
-  color: black;
 }
 
 #logo {

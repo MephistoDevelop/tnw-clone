@@ -110,11 +110,10 @@
         </div>
       </div>
     </div>
-
     <div class="container col latest-news">
-      <div id="latest-news-headline">Latest news ></div>
+      <div class="headline">Latest news ></div>
       <ul class="container flex-wrap">
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -126,7 +125,7 @@
           </div>
           <span class="story-author">Ivan Mehta 30 minutes ago </span>
         </li>
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -138,7 +137,7 @@
           </div>
           <span class="story-author">Ivan Mehta 30 minutes ago </span>
         </li>
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -150,7 +149,7 @@
           </div>
           <span class="story-author">Ivan Mehta 30 minutes ago </span>
         </li>
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -162,7 +161,7 @@
           </div>
           <span class="story-author">Ivan Mehta 30 minutes ago </span>
         </li>
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -174,7 +173,7 @@
           </div>
           <span class="story-author">Ivan Mehta 30 minutes ago </span>
         </li>
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -186,7 +185,7 @@
           </div>
           <span class="story-author">Ivan Mehta 30 minutes ago </span>
         </li>
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -198,7 +197,7 @@
           </div>
           <span class="story-author">Ivan Mehta 30 minutes ago </span>
         </li>
-        <li class="story">
+        <li class="grid-item story">
           <img
             class="story-image"
             src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Indian-Election-514x270.jpg"
@@ -212,16 +211,36 @@
         </li>
       </ul>
     </div>
-
-    <div class="container col">
-      <div class="deals-headline">Latest funding rounds on Index.co ></div>
-      <div class="deals-subheadline">
-        <span>See more </span> <span>Get updates by Email</span>
-        <span>Add info</span>
+    <div id="deals" class="container col">
+      <div id="deals-header" class="container col">
+        <p class="headline">Latest funding rounds on Index.co</p>
+        <div class="container header-links">
+          <p class="header-link">See more</p>
+          <p class="header-link">Get updates by Email</p>
+          <p class="header-link">Add info</p>
+        </div>
       </div>
-      <div class="container col">
-        <div class="flex-wrap">
-          <div class="container deal"></div>
+      <div class="container flex-wrap" style="justify-content: space-between">
+        <div class="grid-item deal">
+          <div class="container col deal-header">
+            <p class="deal-name">AirTrunk</p>
+            <div
+              class="container col align-items-center"
+              style="padding: 10.66666667px 16px; background:rgba(255,68,34,.08)"
+            >
+              <p class="deal-raised">$332M</p>
+              <p class="deal-category">DEBT FINANCING</p>
+            </div>
+          </div>
+          <div class="container col deal-card">
+            <p class="deal-market">Telecomunications</p>
+            <p class="deal-investors">Goldman Sachs, +3</p>
+          </div>
+          <div class="container deal-description">
+            <p id="deal-description">
+              AirTrunk closes US$332M funding, launches data centre in Singapore
+            </p>
+          </div>
         </div>
       </div>
     </div>
