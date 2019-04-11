@@ -2,11 +2,17 @@
   .grid-item {
     width: 100% !important;
   }
+  #deal-to-hide {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 960px) {
   .grid-item {
     width: 30% !important;
+  }
+  #deal-to-hide {
+    display: none;
   }
 }
 
