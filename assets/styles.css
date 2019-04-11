@@ -126,6 +126,18 @@
   font-size: 11px;
 }
 
+.deal-description {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+  border-top: 1.5px solid lightgrey;
+  padding: 10px 0px;
+}
+
+.deal-header {
+  position: relative;
+}
+
 .deal-name {
   color: white;
   background-color: #f42;
@@ -146,6 +158,25 @@
   line-height: 1.25;
 }
 
+.deal-market {
+  font-size: 13px;
+  color: #555;
+  line-height: 22px;
+  padding: 10px 0px;
+}
+
+.deal-category {
+  font-size: 13px;
+  color: #555;
+  line-height: 22px;
+}
+
+.deal-investors {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555;
+  padding: 10px 0px;
+}
 .flex-wrap {
   max-width: 100%;
   flex-wrap: wrap;
@@ -173,6 +204,11 @@
 }
 
 .headline:hover {
+  color: black;
+}
+
+.icon {
+  padding-right: 10px;
   color: black;
 }
 
