@@ -3,7 +3,7 @@
     width: 100% !important;
   }
   .section {
-    width: 50% !important;
+    width: 100% !important;
   }
   #deal-to-hide {
     display: none;
@@ -20,12 +20,32 @@
   #deal-to-hide {
     display: none;
   }
+  .latest-deal-header {
+    width: 100% !important;
+  }
+  .section-latest-deals {
+    width: 30% !important;
+  }
 }
 
 @media screen and (min-width: 961px) {
   .grid-item {
     width: 22% !important;
   }
+  .section {
+    width: 33% !important;
+  }
+  .latest-deal-header {
+    width: 100% !important;
+  }
+  .section-latest-deals {
+    width: 22% !important;
+  }
+}
+
+ul li {
+  padding: 5px 0px;
+  margin-left: 10px;
 }
 
 .align-items-center {
@@ -200,9 +220,61 @@
   padding: 10px 0px;
   text-align: center;
 }
+
+.deal-price-after {
+  text-decoration: line-through;
+  margin-right: 4px;
+  color: #aaa;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.deal-price-new {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
 .flex-wrap {
   max-width: 100%;
   flex-wrap: wrap;
+}
+
+.footer-icon {
+  min-width: 30px;
+  color: white;
+  border-radius: 50px;
+  padding: 7px;
+  background-color: #333;
+  margin: 5px;
+}
+
+.footer-icon:hover {
+  background-color: black;
+}
+
+.footer-links {
+  background: #131313;
+  padding: 2.5em 0;
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+
+.footer-link {
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 5px;
 }
 
 .header-link {
@@ -235,8 +307,61 @@
   color: black;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
+.latest {
+  width: 48%;
+}
+
 .latest-news {
   padding: 0px 16px;
+}
+
+.latest-container {
+  with: 70%;
+  padding: 25px 14px;
+}
+
+.latest-description {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 0px 0px;
+  font-size: 14px;
+}
+
+.latest-image {
+  width: 100%;
+  height: 100%;
+}
+
+.latest-tittle {
+  color: #f42;
+  font-size: 13px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
+
+.list-latest {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.list-latest::before {
+  content: "•";
+  color: red;
 }
 
 .most-popular {
@@ -367,10 +492,23 @@
   color: black;
 }
 
+.section-latest {
+  heigth: 15vh;
+}
+
+.section-latest-deals {
+  width: 100%;
+  margin: 10px;
+}
+
 .story {
   width: 25%;
   width: 23%;
   margin: 6px;
+}
+
+.story-image {
+  width: 100%;
 }
 
 .story-author {
