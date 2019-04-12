@@ -1,9 +1,32 @@
 @media screen and (max-width: 600px) {
+  .col-1-3 {
+    width: 100% !important;
+  }
+  .col-2-3 {
+    width: 100% !important;
+  }
+  .cover-grid {
+    flex-wrap: wrap !important;
+  }
   .grid-item {
     width: 100% !important;
   }
+  .nav-sections {
+    display: none !important;
+  }
+  .nav-tnw {
+    display: none !important;
+  }
   .section {
     width: 100% !important;
+  }
+  .story-heading {
+    align-self: flex-start;
+  }
+  .story-image {
+    max-width: 15%;
+    max-height: 25%;
+    margin-right: 8px;
   }
   #deal-to-hide {
     display: none;
@@ -160,6 +183,15 @@ ul li {
   width: 75%;
 }
 
+.deal {
+  margin: 4px 0;
+}
+
+.deals {
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
 .deal-category {
   color: #000;
   opacity: 0.5;
@@ -167,6 +199,7 @@ ul li {
 }
 
 .deal-description {
+  width: 100%;
   color: #555;
   font-size: 12px;
   font-weight: 400;
@@ -177,6 +210,10 @@ ul li {
 
 .deal-header {
   position: relative;
+}
+
+.deals-grid {
+  padding: 0 15px;
 }
 
 .deal-name {
@@ -315,15 +352,6 @@ ul li {
   width: 48%;
 }
 
-.latest-news {
-  padding: 0px 16px;
-}
-
-.latest-container {
-  with: 70%;
-  padding: 25px 14px;
-}
-
 .latest-description {
   max-height: 56px;
   overflow: hidden;
@@ -336,9 +364,19 @@ ul li {
   font-size: 14px;
 }
 
+.latest-header {
+  width: 70%;
+  padding: 25px 14px;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
 .latest-image {
   width: 100%;
   height: 100%;
+}
+
+.latest-news {
+  padding: 0px 16px;
 }
 
 .latest-tittle {
@@ -352,14 +390,14 @@ ul li {
   padding: 5px 0px;
 }
 
-.list-latest {
+.latest-item {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 12px;
   color: #555;
   line-height: 1.5;
 }
 
-.list-latest::before {
+.latest-item::before {
   content: "•";
   color: red;
 }
@@ -493,7 +531,7 @@ ul li {
 }
 
 .section-latest {
-  heigth: 15vh;
+  height: 15vh;
 }
 
 .section-latest-deals {
@@ -534,11 +572,6 @@ ul li {
 
 .story-tittle:hover {
   color: red;
-}
-
-#deals {
-  padding: 0 24px;
-  margin-bottom: 24px;
 }
 
 #deals-header {
