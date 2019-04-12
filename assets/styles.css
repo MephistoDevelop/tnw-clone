@@ -349,7 +349,7 @@ ul li {
 }
 
 .latest {
-  width: 48%;
+  width: 27%;
 }
 
 .latest-description {
@@ -365,8 +365,8 @@ ul li {
 }
 
 .latest-header {
-  width: 70%;
-  padding: 25px 14px;
+  width: 80%;
+  padding: 0px 9px;
   background-color: rgba(255, 68, 34, 0.06);
 }
 
@@ -532,6 +532,7 @@ ul li {
 
 .section-latest {
   height: 15vh;
+  margin: 2px 0;
 }
 
 .section-latest-deals {
