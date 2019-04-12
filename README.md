@@ -14,7 +14,7 @@ Simple tnw clone made with HMTL and CSS (Flexbox)
 - Grids
   -Responsive Design
 
-[**Live Demo**](https://rawcdn.githack.com/MephistoDevelop/tnw-clone/8e3fecf34f4b1c7ed5c487a8f3c6909fb61744dc/index.html)
+[**Live Demo**](https://rawcdn.githack.com/MephistoDevelop/tnw-clone/64fad8bda04b822617b2031eef2f0438216c6728/index.html)
 
 **Coded by**
 [MephistoDevelop](https://www.github.com/mephistodevelop) & [Noincomedev](https://www.github.com/noincomedev)
