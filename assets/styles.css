@@ -1,0 +1,589 @@
+@media screen and (max-width: 600px) {
+  .col-1-3 {
+    width: 100% !important;
+  }
+  .col-2-3 {
+    width: 100% !important;
+  }
+  .cover-grid {
+    flex-wrap: wrap !important;
+  }
+  .grid-item {
+    width: 100% !important;
+  }
+  .nav-sections {
+    display: none !important;
+  }
+  .nav-tnw {
+    display: none !important;
+  }
+  .section {
+    width: 100% !important;
+  }
+  .story-heading {
+    align-self: flex-start;
+  }
+  .story-image {
+    max-width: 15%;
+    max-height: 25%;
+    margin-right: 8px;
+  }
+  #deal-to-hide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .grid-item {
+    width: 30% !important;
+  }
+  .section {
+    width: 50% !important;
+  }
+  #deal-to-hide {
+    display: none;
+  }
+  .latest-deal-header {
+    width: 100% !important;
+  }
+  .section-latest-deals {
+    width: 30% !important;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .grid-item {
+    width: 22% !important;
+  }
+  .section {
+    width: 33% !important;
+  }
+  .latest-deal-header {
+    width: 100% !important;
+  }
+  .section-latest-deals {
+    width: 22% !important;
+  }
+}
+
+ul li {
+  padding: 5px 0px;
+  margin-left: 10px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.avatar-image {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.card-header {
+  width: 100%;
+  height: 10vh;
+  border: 1px solid blue;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.col-2-3 {
+  width: 65%;
+  padding: 4px;
+}
+
+.col-1-3 {
+  width: 35%;
+  padding: 4px;
+}
+
+.cover {
+  padding: 4px 12px;
+}
+
+.cover-author {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cover-author-small {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.cover-background {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/PUBG-796x398.jpg");
+  background-size: cover;
+}
+
+.cover-full-height {
+  height: 100%;
+}
+
+.cover-grid {
+  height: 66vh;
+  margin-bottom: 48px;
+}
+
+.cover-section {
+  color: #fff;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.cover-section-small {
+  width: 100%;
+  color: #fff;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: auto;
+}
+
+.cover-small-size {
+  height: 49%;
+}
+
+.cover-tittle {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+  color: #fff;
+  font-weight: 700;
+  width: 80%;
+}
+
+.cover-title-small {
+  font-family: Avalon, sans-serif;
+  font-size: 22px !important;
+  letter-spacing: -0.015em;
+  color: #fff;
+  font-weight: bold;
+  width: 75%;
+}
+
+.deal {
+  margin: 4px 0;
+}
+
+.deals {
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.deal-category {
+  color: #000;
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+.deal-description {
+  width: 100%;
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+  border-top: 1.5px solid lightgrey;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.deal-header {
+  position: relative;
+}
+
+.deals-grid {
+  padding: 0 15px;
+}
+
+.deal-name {
+  color: white;
+  background-color: #f42;
+  padding: 10.66666667px 16px;
+  padding-left: 84px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deal-raised {
+  font-size: 18px;
+  color: #000;
+  margin: 0 !important;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.deal-market {
+  font-size: 13px;
+  color: #555;
+  line-height: 22px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.deal-category {
+  font-size: 13px;
+  color: #555;
+  line-height: 22px;
+}
+
+.deal-investors {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.deal-price-after {
+  text-decoration: line-through;
+  margin-right: 4px;
+  color: #aaa;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.deal-price-new {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.flex-wrap {
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.footer-icon {
+  min-width: 30px;
+  color: white;
+  border-radius: 50px;
+  padding: 7px;
+  background-color: #333;
+  margin: 5px;
+}
+
+.footer-icon:hover {
+  background-color: black;
+}
+
+.footer-links {
+  background: #131313;
+  padding: 2.5em 0;
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+
+.footer-link {
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 5px;
+}
+
+.header-link {
+  color: #f42;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.headline {
+  color: #f42;
+  text-decoration: none;
+  font-family: Avalon, sans-serif;
+  font-size: 26px;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+  line-height: 1.1;
+  padding: 20px 0px;
+}
+
+.headline:hover {
+  color: black;
+}
+
+.icon {
+  padding-right: 10px;
+  color: black;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.latest {
+  width: 27%;
+}
+
+.latest-description {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 0px 0px;
+  font-size: 14px;
+}
+
+.latest-header {
+  width: 80%;
+  padding: 0px 9px;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.latest-image {
+  width: 100%;
+  height: 100%;
+}
+
+.latest-news {
+  padding: 0px 16px;
+}
+
+.latest-tittle {
+  color: #f42;
+  font-size: 13px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
+
+.latest-item {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.latest-item::before {
+  content: "•";
+  color: red;
+}
+
+.most-popular {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 1)
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/katie-bouman.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 44vh;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.most-popular-author {
+  color: lightgray;
+}
+
+.most-popular-category {
+  color: white;
+}
+
+.most-popular-title {
+  color: white;
+  margin: 6px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-clock {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f42;
+  letter-spacing: 0;
+  font-size: 1.35rem;
+}
+
+.nav-logo {
+  background-color: #f42;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#c09),
+    color-stop(85%, #f42)
+  );
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  width: 106px;
+  will-change: height;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-message {
+  background-color: #fd3;
+  min-height: 4.5vh;
+  font-size: 13px;
+  padding-top: 6px;
+  padding-left: 126px;
+}
+
+.nav-sections {
+  height: 100%;
+  min-height: 6.5vh;
+}
+
+.nav-sections li {
+  display: inline;
+}
+
+.nav-sections-section {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  display: block;
+  line-height: 1;
+  padding: 9px 10px;
+  font-size: 0.89rem;
+}
+
+.nav-sections-section:hover {
+  color: #131313;
+}
+
+.nav-sections-contdown {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid lightgray;
+  padding: 8px 18px;
+}
+
+.nav-tnw {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-tnw li {
+  display: inline;
+  color: white;
+  margin-left: 20px;
+}
+
+.section {
+  padding: 20px 8px;
+}
+
+.section-headline {
+  color: #f42;
+  font-size: 28px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.section-headline:hover {
+  color: black;
+}
+
+.section-latest {
+  height: 15vh;
+  margin: 2px 0;
+}
+
+.section-latest-deals {
+  width: 100%;
+  margin: 10px;
+}
+
+.story {
+  width: 25%;
+  width: 23%;
+  margin: 6px;
+}
+
+.story-image {
+  width: 100%;
+}
+
+.story-author {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.story-image {
+  width: 100%;
+}
+
+.story-tittle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  color: black;
+  padding: 5px 0px;
+}
+
+.story-tittle:hover {
+  color: red;
+}
+
+#deals-header {
+  margin-bottom: 16px;
+}
+
+#icon-search {
+  color: lightgray;
+  margin: 0 24px;
+}
+
+#logo {
+  height: 16px;
+}
