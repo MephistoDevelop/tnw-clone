@@ -1,20 +1,3 @@
-
-
-### HTML & CSS Course
-
-**Description**
-
-
-
-# Learned
-
-
-
-**Coded by**
-[MephistoDevelop](https://www.github.com/mephistodevelop) & [Noincomedev](https://www.github.com/noincomedev)
-
-
-
 # TNW Clone Page
 
 > Project taked from HTML/CSS Microverse Curriculum
@@ -23,7 +6,7 @@
 
 Simple tnw clone made with HMTL and CSS (Flexbox)
 
-![screenshot](./screenshotsmashing.gif)
+![screenshot](./screenshottnw.gif)
 
 ## Built With HTML,CSS,FlexBox
 
